@@ -1,0 +1,8 @@
+1. conda activate env_name
+2. conda install ipykernel
+3. python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+4. jupyter lab
+
+tips:
+if the step 3 performed in one environment but jupyter started from another it will not be able to start this kernel
+install kernels from where usually start jupyter but than edit kernek json so it will pick needed interpreter
